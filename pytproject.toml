@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "checkvis"
+version = "0.0.1"
+authors = [
+  { name="Ali Hatami Tajik", email="a.hatam008 [ at ] gmail [ dooot ] com" },
+]
+description = "Checklist Visualizer"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/alihatamitajik/checkvis"
+Issues = "https://github.com/alihatamitajik/checkvis/issues"
